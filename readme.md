@@ -1,0 +1,1 @@
+This is an application with basic OAuth through facebook meant to be used for testing Forge Rock authentication
