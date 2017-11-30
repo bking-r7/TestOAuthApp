@@ -1,12 +1,13 @@
 security:
     oauth2:
         client:
-            clientId: 1858624654449822
-            clientSecret: 9a57046ce501d9177c51dfed693f6d28
-            accessTokenUri: https://graph.facebook.com/oauth/access_token
-            userAuthorizationUri: https://www.facebook.com/dialog/oauth
+            clientId: 0oad1lhrjze1NDb5V0h7
+            clientSecret: Q-tlniEQMqgKtjxwr_TcGIFH9agMB23brmk5xMhR
+            accessTokenUri: https://dev-960502.oktapreview.com/oauth2/default/v1/token
+            userAuthorizationUri: https://dev-960502.oktapreview.com/oauth2/default/v1/authorize
             tokenName: oauth_token
-            authenticationScheme: query
             clientAuthenticationScheme: form
+            issuer: https://dev-960502.oktapreview.com/oauth2/default
+            scope: openid profile email
         resource:
-            userInfoUri: https://graph.facebook.com/me
+            userInfoUri: https://dev-960502.oktapreview.com/oauth2/default/v1/userinfo
